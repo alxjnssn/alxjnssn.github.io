@@ -44,7 +44,7 @@
 
       function appendReadTime(totalReadTime) {
         var node = document.createElement('span');                 
-        var textnode = document.createTextNode(totalReadTime +  ' Minute Read');         
+        var textnode = document.createTextNode(totalReadTime +  window.read_time_text);         
         node.appendChild(textnode);                              
         document.querySelector('.meta-wrapper > .meta-inner > .meta').appendChild(node);
       }
