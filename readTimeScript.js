@@ -1,5 +1,5 @@
 (function () {
-    if (\$('body').hasClass('single-page')) {
+    if ($('body').hasClass('single-page')) {
       var totalCharacters = 0;
       var imgCount;
       var imgTime;
